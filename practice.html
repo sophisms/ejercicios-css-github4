@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="styles.css">
+<style>
+    p, h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        size: 1.5em;
+    }
+    h3 {
+        color: blue;
+        text-align: center;
+    }
+    #main {
+        background-color: whitesmoke;
+        text-align: center;
+        padding: 30px;
+        margin: 30px;
+    }
+    .alert {
+        color: #72353D;  
+        background: #EAD2D5;
+    }
+    .aux1 {
+        padding: 20px;
+        width: 40%;
+        height: 200px;
+        border-radius: 50px;
+        border: 1px solid black;
+        background-color: blue;
+        transform: rotate(45deg);
+        animation: mymove2 5s infinite;
+    }
+    .aux2 {
+        padding: 20px;
+        width: 40%;
+        height: 200px;
+        border-radius: 50px;
+        border: 1px solid black;
+        background-color: red;
+        transform: rotate(45deg);
+        animation: mymove 5s infinite;
+    }
+    @keyframes mymove {
+        from {background-color: red;}
+        to {background-color: blue;}
+    }
+    @keyframes mymove2 {
+        from {background-color: blue;}
+        to {background-color: red;}
+    }
+</style>
+</head>
+<body>
+<div id="main">
+<h3>Let's style this website!<h3>
+</div>
+<div class="alert">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quaerat nam? Delectus enim pariatur est reiciendis consequuntur omnis veniam porro iure perferendis perspiciatis, animi laudantium dignissimos debitis, quam sed et!</p>
+</div>
+<div class="aux1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente tempore maiores laudantium totam! Aliquid, corrupti veritatis et, consequuntur molestias quae rem odit perspiciatis tenetur, eaque facilis! Fugit quaerat vero nobis!</p>
+</div>
+<div class="aux2">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente tempore maiores laudantium totam! Aliquid, corrupti veritatis et, consequuntur molestias quae rem odit perspiciatis tenetur, eaque facilis! Fugit quaerat vero nobis!</p>
+</div>
+</body>
+</html>
